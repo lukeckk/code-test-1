@@ -1,0 +1,100 @@
+body{
+    background: #F2F5F7;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bodyContainer{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background: #FFFFFF;
+    width: 300px;
+    height: 671px;
+    margin: 20px
+}
+
+.logo{
+    /* Logo */
+
+    /*position: absolute;*/
+    width: 71.39px;
+    height: 24px;
+    left: 16px;
+    top: 20px;
+
+
+}
+
+.input{
+    width: 250px;
+}
+
+.executeButton{
+    background-color: orangered;
+}
+
+.query{
+    height: 165px;
+    top: 65px;
+    background: #F2F5F7;
+}
+
+.queryBox{
+    margin: 25px;
+    padding: 5px;
+}
+
+.history{
+
+}
+
+.queryList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 20px;
+
+}
+
+.queryList li{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: small;
+}
+
+.box{
+    border: solid 1px black;
+    margin: 20px;
+    padding: 5px;
+    position: relative;
+}
+
+#loadingLogo{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#dynamicLoadingLogo{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#completeLogo{
+     width: 20px;
+     height: 20px;
+     position: absolute;
+     bottom: 0;
+     right: 0;
+ }
+
+/* Query  History */
+
+/*position: relative;*/
+/*width: 300px;*/
+/*height: 671px;*/
+
+/*background: #FFFFFF;*/
