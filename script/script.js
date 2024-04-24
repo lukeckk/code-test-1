@@ -38,17 +38,17 @@ function showPage(page){
             contentDiv.innerHTML =`
                     <div id="boxContainer">
                         <div class="box">
-                            <p>box 1</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a pharetra nunc, ut ultricies tortor.</p>
 
                         </div>
                         <div class="box">
                             <img id="loadingLogo" src="images/loading.gif" alt="Loading">
-                            <p>box 2</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a pharetra nunc, ut ultricies tortor.</p>
 
                         </div>
                         <div class="box">
                             <img id="completeLogo" src="images/complete.png" alt="Complete">
-                            <p>box 3</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a pharetra nunc, ut ultricies tortor.</p>
                         </div>
                     </div>`;
             break;

@@ -13,24 +13,15 @@ body{
     margin: 20px
 }
 
-.logo{
-    /* Logo */
-
-    /*position: absolute;*/
-    width: 71.39px;
-    height: 24px;
-    left: 16px;
-    top: 20px;
-
-
-}
-
 .input{
     width: 250px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .executeButton{
     background-color: orangered;
+    color: white;
 }
 
 .query{
@@ -44,15 +35,18 @@ body{
     padding: 5px;
 }
 
-.history{
+.logoBar{
+    height: 50px;
+}
 
+.history{
+    margin-top: 20px;
 }
 
 .queryList{
     list-style-type: none;
     margin: 0;
     padding: 0 0 0 20px;
-
 }
 
 .queryList li{
@@ -61,11 +55,32 @@ body{
     font-size: small;
 }
 
-.box{
-    border: solid 1px black;
+#content p{
+    font-size: small;
+    color: #545454;
+}
+
+#content{
     margin: 20px;
+}
+
+.box{
+    border: solid 1px #b9b9b9;
+    margin-bottom: 20px;
     padding: 5px;
     position: relative;
+    border-radius: 5px;
+}
+
+.logoBar{
+    position: relative;
+}
+
+#logo{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 10px;
 }
 
 #loadingLogo{
@@ -83,6 +98,7 @@ body{
     bottom: 0;
     right: 0;
 }
+
 #completeLogo{
      width: 20px;
      height: 20px;
@@ -91,10 +107,14 @@ body{
      right: 0;
  }
 
-/* Query  History */
+a{
+    color: #4d4d4d;
+    text-decoration: none;
+}
 
-/*position: relative;*/
-/*width: 300px;*/
-/*height: 671px;*/
+a:hover, a:focus {
+    color: orangered;
+    border-bottom: 2px solid orangered;
+}
 
-/*background: #FFFFFF;*/
+
